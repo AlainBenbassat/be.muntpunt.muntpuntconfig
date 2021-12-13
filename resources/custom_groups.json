@@ -1,0 +1,29 @@
+{
+  "entity": "CustomGroup",
+  "data": {
+    "extra_evenement_info": {
+      "name": "extra_evenement_info",
+      "title": "Extra evenement info",
+      "extends": "Event",
+      "style": "Inline",
+      "collapse_display": 0,
+      "table_name": "civicrm_value_extra_evenement_info",
+      "is_public": 0,
+      "fields": {
+        "doelgroep": {
+          "name": "doelgroep",
+          "label": "Doelgroep",
+          "data_type": "String",
+          "html_type": "Multi-Select",
+          "is_required": 1,
+          "is_searchable": 1,
+          "is_view": 0,
+          "column_name": "doelgroep",
+          "weight": 0,
+          "is_active": 1,
+          "option_group": "doelgroep"
+        }
+      }
+    }
+  }
+}

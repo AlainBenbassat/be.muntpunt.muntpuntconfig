@@ -57,9 +57,6 @@ function muntpuntconfig_civicrm_uninstall() {
  */
 function muntpuntconfig_civicrm_enable() {
   _muntpuntconfig_civix_civicrm_enable();
-
-  $config = new CRM_Muntpuntconfig_Config();
-  $config->checkConfig();
 }
 
 /**

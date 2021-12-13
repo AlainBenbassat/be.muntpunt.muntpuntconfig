@@ -4,15 +4,21 @@ class CRM_Muntpuntconfig_Config {
   const ICONTACT_ID_TYPE = 'icontact_id';
 
   public function checkConfig() {
-    // general settings
     $this->setDateFormat();
-    //$this->setMoneyFormat();
-
-    // extra type for de.systopia.identitytracker
+    $this->setMoneyFormat();
     $this->addContactIdentity_oldCiviCRMId();
+    $this->loadConfigItems();
   }
 
-  public function addContactIdentity_oldCiviCRMId() {
+  private function loadConfigItems() {
+    $resourcePath = Civi::resources()->getPath('be.muntpunt.muntpuntconfig') . '/resources';
+
+    civicrm_api3('Civiconfig', 'load_json', [
+      'path' => $resourcePath
+    ]);
+  }
+
+  private function addContactIdentity_oldCiviCRMId() {
     CRM_Identitytracker_Configuration::add_identity_type(self::ICONTACT_ID_TYPE, 'Oude CiviCRM ID (iContact)');
   }
 
