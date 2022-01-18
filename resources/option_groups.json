@@ -379,8 +379,8 @@
         }
       }
     },
-    "evenement status": {
-      "name": "evenement status",
+    "evenement_status": {
+      "name": "evenement_status",
       "title": "Evenement status",
       "is_reserved": "0",
       "is_active": "1",
@@ -396,7 +396,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "evenement status"
+          "option_group": "evenement_status"
         },
         "Goedgekeurd": {
           "label": "Goedgekeurd",
@@ -408,7 +408,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "evenement status"
+          "option_group": "evenement_status"
         },
         "Afgekeurd": {
           "label": "Afgekeurd",
@@ -420,7 +420,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "evenement status"
+          "option_group": "evenement_status"
         },
         "Geannuleerd": {
           "label": "Geannuleerd",
@@ -432,7 +432,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "evenement status"
+          "option_group": "evenement_status"
         },
         "Communicatie OK": {
           "label": "Communicatie OK",
@@ -444,12 +444,12 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "evenement status"
+          "option_group": "evenement_status"
         }
       }
     },
-    "muntpunt zalen": {
-      "name": "muntpunt zalen",
+    "muntpunt_zalen": {
+      "name": "muntpunt_zalen",
       "title": "Muntpunt zalen",
       "is_reserved": "0",
       "is_active": "1",
@@ -465,7 +465,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Agora – Infohoek": {
           "label": "Agora – Infohoek",
@@ -477,7 +477,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Agora (links) 0": {
           "label": "Agora (links) 0",
@@ -489,7 +489,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Agora (rechts) 0": {
           "label": "Agora (rechts) 0",
@@ -501,7 +501,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Coupé +3": {
           "label": "Coupé +3",
@@ -513,7 +513,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Coupé +4": {
           "label": "Coupé +4",
@@ -525,7 +525,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Coupé +5": {
           "label": "Coupé +5",
@@ -537,7 +537,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "De Grid +5": {
           "label": "De Grid +5",
@@ -549,7 +549,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "De Boeg +5": {
           "label": "De Boeg +5",
@@ -561,7 +561,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "De Wolken +5": {
           "label": "De Wolken +5",
@@ -573,7 +573,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Duikboot +1": {
           "label": "Duikboot +1",
@@ -585,7 +585,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Flagey +6": {
           "label": "Flagey +6",
@@ -597,7 +597,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Het Honderdhandenhuis +1": {
           "label": "Het Honderdhandenhuis +1",
@@ -609,7 +609,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Ketje S2": {
           "label": "Ketje S2",
@@ -621,7 +621,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Krantenhoek 0": {
           "label": "Krantenhoek 0",
@@ -633,7 +633,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Leesstraat": {
           "label": "Leesstraat",
@@ -645,7 +645,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Literair Salon S1": {
           "label": "Literair Salon S1",
@@ -657,7 +657,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Lobby +5": {
           "label": "Lobby +5",
@@ -669,7 +669,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Mallemunt S3": {
           "label": "Mallemunt S3",
@@ -681,7 +681,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Matonge +6": {
           "label": "Matonge +6",
@@ -693,7 +693,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Multatuli +3": {
           "label": "Multatuli +3",
@@ -705,7 +705,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Muntplein": {
           "label": "Muntplein",
@@ -717,7 +717,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Muntpunt Grand Café": {
           "label": "Muntpunt Grand Café",
@@ -729,7 +729,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Nabijheidskantoor +2": {
           "label": "Nabijheidskantoor +2",
@@ -741,7 +741,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Nabijheidskantoor +3": {
           "label": "Nabijheidskantoor +3",
@@ -753,7 +753,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Nabijheidskantoor +4": {
           "label": "Nabijheidskantoor +4",
@@ -765,7 +765,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Nabijheidskantoor +5": {
           "label": "Nabijheidskantoor +5",
@@ -777,7 +777,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Peristillium": {
           "label": "Peristillium",
@@ -789,7 +789,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Schildknaapgebouw": {
           "label": "Schildknaapgebouw",
@@ -801,7 +801,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Voorportaal 0": {
           "label": "Voorportaal 0",
@@ -813,7 +813,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Zinneke 1, S2": {
           "label": "Zinneke 1, S2",
@@ -825,7 +825,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Zinneke 2, S2": {
           "label": "Zinneke 2, S2",
@@ -837,7 +837,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Zinneke S2": {
           "label": "Zinneke S2",
@@ -849,7 +849,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Zithoek +2": {
           "label": "Zithoek +2",
@@ -861,7 +861,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Zithoek +4": {
           "label": "Zithoek +4",
@@ -873,7 +873,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Zithoek +5": {
           "label": "Zithoek +5",
@@ -885,7 +885,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "+1": {
           "label": "+1",
@@ -897,7 +897,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "+2": {
           "label": "+2",
@@ -909,7 +909,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "+3": {
           "label": "+3",
@@ -921,7 +921,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "+4": {
           "label": "+4",
@@ -933,7 +933,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "+5": {
           "label": "+5",
@@ -945,7 +945,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "+6": {
           "label": "+6",
@@ -957,7 +957,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "-1": {
           "label": "-1",
@@ -969,7 +969,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "1",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "Muntpunt": {
           "label": "Muntpunt",
@@ -981,7 +981,7 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
         },
         "De Boeg +2": {
           "label": "De Boeg +2",
@@ -993,7 +993,676 @@
           "is_optgroup": "0",
           "is_reserved": "0",
           "is_active": "0",
-          "option_group": "muntpunt zalen"
+          "option_group": "muntpunt_zalen"
+        }
+      }
+    },
+    "gevoerde_promotie": {
+      "name": "gevoerde_promotie",
+      "title": "Gevoerde promotie",
+      "is_reserved": "0",
+      "is_active": "1",
+      "is_locked": "0",
+      "option_values": {
+        "Muntpunt": {
+          "label": "Muntpunt",
+          "value": "3",
+          "name": "Muntpunt",
+          "filter": "0",
+          "is_default": "0",
+          "weight": "1",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "gevoerde_promotie"
+        },
+        "Broodje Brussel": {
+          "label": "Broodje Brussel",
+          "value": "1",
+          "name": "Broodje Brussel",
+          "filter": "0",
+          "is_default": "0",
+          "weight": "2",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "gevoerde_promotie"
+        },
+        "UiT in Brussel": {
+          "label": "UiT in Brussel",
+          "value": "2",
+          "name": "UiT in Brussel",
+          "filter": "0",
+          "is_default": "0",
+          "weight": "3",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "gevoerde_promotie"
+        },
+        "Partner": {
+          "label": "Partner",
+          "value": "4",
+          "name": "Partner",
+          "filter": "0",
+          "is_default": "0",
+          "weight": "4",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "gevoerde_promotie"
+        }
+      }
+    },
+    "kernfunctie": {
+      "name": "kernfunctie",
+      "title": "Kernfunctie",
+      "is_reserved": "0",
+      "is_active": "1",
+      "is_locked": "0",
+      "option_values": {
+        "Bibliotheek": {
+          "label": "Bibliotheek",
+          "value": "Bibbliotheek",
+          "name": "Bibbliotheek",
+          "filter": "",
+          "is_default": "0",
+          "weight": "1",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "kernfunctie"
+        },
+        "Commercieel beleid": {
+          "label": "Commercieel beleid",
+          "value": "1",
+          "name": "Commercieel beleid",
+          "filter": "0",
+          "is_default": "0",
+          "weight": "2",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "kernfunctie"
+        },
+        "Informatiecentrum": {
+          "label": "Informatiecentrum",
+          "value": "Informatiecentrum",
+          "name": "Informatiecentrum",
+          "filter": "",
+          "is_default": "0",
+          "weight": "3",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "kernfunctie"
+        },
+        "Promo Brussel": {
+          "label": "Promo Brussel",
+          "value": "Brussel promotie",
+          "name": "Brussel_promotie",
+          "filter": "",
+          "is_default": "0",
+          "weight": "4",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "kernfunctie"
+        },
+        "Personeel": {
+          "label": "Personeel",
+          "value": "2",
+          "name": "Personeel",
+          "filter": "0",
+          "is_default": "0",
+          "weight": "5",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "kernfunctie"
+        }
+      }
+    },
+    "activiteitensoort": {
+      "name": "activiteitensoort",
+      "title": "Activiteitensoort",
+      "is_reserved": "0",
+      "is_active": "1",
+      "is_locked": "0",
+      "option_values": {
+        "N.v.t.": {
+          "label": "N.v.t.",
+          "value": "NVT",
+          "name": "NVT",
+          "filter": "",
+          "is_default": "0",
+          "weight": "1",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Auteurslezingen": {
+          "label": "Auteurslezingen",
+          "value": "Auteurslezingen",
+          "name": "Auteurslezingen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "2",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Bibliotheekintroducties en -instructies": {
+          "label": "Bibliotheekintroducties en -instructies",
+          "value": "Bibliotheekintroducties en -instructies",
+          "name": "Bibliotheekintroducties_en_inst",
+          "filter": "",
+          "is_default": "0",
+          "weight": "3",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Clubs en kringen": {
+          "label": "Clubs en kringen",
+          "value": "Clubs en kringen",
+          "name": "Clubs_en_kringen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "4",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Concerten/Muziekvoorstellingen": {
+          "label": "Concerten/Muziekvoorstellingen",
+          "value": "Concerten/Muziekvoorstellingen",
+          "name": "Concerten_Muziekvoorstellingen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "5",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Debatten": {
+          "label": "Debatten",
+          "value": "Debatten",
+          "name": "Debatten",
+          "filter": "",
+          "is_default": "0",
+          "weight": "6",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Filmvoorstellingen": {
+          "label": "Filmvoorstellingen",
+          "value": "Filmvoorstellingen",
+          "name": "Filmvoorstellingen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "7",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Informatiesessies/Lezingen": {
+          "label": "Informatiesessies/Lezingen",
+          "value": "Informatiesessies/Lezingen",
+          "name": "Informatiesessies_Lezingen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "8",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Loopbaanstimulerende activiteiten": {
+          "label": "Loopbaanstimulerende activiteiten",
+          "value": "Loopbaanstimulerende activiteiten",
+          "name": "Loopbaanstimulerende_activiteit",
+          "filter": "",
+          "is_default": "0",
+          "weight": "9",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Publiekswervende activiteiten": {
+          "label": "Publiekswervende activiteiten",
+          "value": "publiekswervende activiteiten",
+          "name": "Publiekswervende_activiteiten",
+          "filter": "",
+          "is_default": "0",
+          "weight": "10",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Taalcursussen": {
+          "label": "Taalcursussen",
+          "value": "Taalcursussen",
+          "name": "Taalcursussen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "11",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Taalstimulerende activiteiten": {
+          "label": "Taalstimulerende activiteiten",
+          "value": "Taalstimulerende activiteiten",
+          "name": "Taalstimulerende_activiteiten",
+          "filter": "",
+          "is_default": "0",
+          "weight": "12",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Tentoonstellingen": {
+          "label": "Tentoonstellingen",
+          "value": "Tentoonstellingen",
+          "name": "Tentoonstellingen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "13",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Theatervoorstellingen/Poppenkast/Kamishibai": {
+          "label": "Theatervoorstellingen/Poppenkast/Kamishibai",
+          "value": "Theatervoorstellingen/Poppenkast/Kamishibai",
+          "name": "Theatervoorstellingen_Poppenkas",
+          "filter": "",
+          "is_default": "0",
+          "weight": "14",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Themapakketten/Vertelkoffers": {
+          "label": "Themapakketten/Vertelkoffers",
+          "value": "Themapakketten/Vertelkoffers",
+          "name": "Themapakketten_Vertelkoffers",
+          "filter": "",
+          "is_default": "0",
+          "weight": "15",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Themastands": {
+          "label": "Themastands",
+          "value": "Themastands",
+          "name": "Themastands",
+          "filter": "",
+          "is_default": "0",
+          "weight": "16",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Voorlees- en vertelsessies": {
+          "label": "Voorlees- en vertelsessies",
+          "value": "Voorlees- en vertelsessies",
+          "name": "Voorlees_en_vertelsessies",
+          "filter": "",
+          "is_default": "0",
+          "weight": "17",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Workshops en cursussen ICT en digitale media: inhoudelijk": {
+          "label": "Workshops en cursussen ICT en digitale media: inhoudelijk",
+          "value": "Workshops en cursussen ICT en digitale media: inhoudelijk",
+          "name": "Workshops_en_cursussen_ICT_en_d",
+          "filter": "",
+          "is_default": "0",
+          "weight": "18",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Workshops en cursussen ICT en digitale media: technisch": {
+          "label": "Workshops en cursussen ICT en digitale media: technisch",
+          "value": "Workshops en cursussen ICT en digitale media: technisch",
+          "name": "Workshops_en_cursussen_ICT_en_d",
+          "filter": "",
+          "is_default": "0",
+          "weight": "19",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        },
+        "Workshops en cursussen: diverse": {
+          "label": "Workshops en cursussen: diverse",
+          "value": "workshops en cursussen: diverse",
+          "name": "Workshops_en_cursussen_diverse",
+          "filter": "",
+          "is_default": "0",
+          "weight": "20",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "activiteitensoort"
+        }
+      }
+    },
+    "doelstelling": {
+      "name": "doelstelling",
+      "title": "Doelstelling",
+      "is_reserved": "0",
+      "is_active": "1",
+      "is_locked": "0",
+      "option_values": {
+        "N.v.t.": {
+          "label": "N.v.t.",
+          "value": "NVT",
+          "name": "NVT",
+          "filter": "",
+          "is_default": "0",
+          "weight": "1",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Leesmotivatie/leesbevordering": {
+          "label": "Leesmotivatie/leesbevordering",
+          "value": "Leesmotivatie/leesbevordering",
+          "name": "Leesmotivatie_leesbevordering",
+          "filter": "",
+          "is_default": "0",
+          "weight": "2",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Cultuureducatie": {
+          "label": "Cultuureducatie",
+          "value": "Cultuureducatie",
+          "name": "Cultuureducatie",
+          "filter": "",
+          "is_default": "0",
+          "weight": "3",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "e-inclusie/mediawijsheid": {
+          "label": "e-inclusie/mediawijsheid",
+          "value": "e-inclusie/mediawijsheid",
+          "name": "e_inclusie_mediawijsheid",
+          "filter": "",
+          "is_default": "0",
+          "weight": "4",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Doelgroepenwerking/laagdrempeligheid": {
+          "label": "Doelgroepenwerking/laagdrempeligheid",
+          "value": "Doelgroepenwerking/laagdrempeligheid",
+          "name": "Doelgroepenwerking_laagdrempeli",
+          "filter": "",
+          "is_default": "0",
+          "weight": "5",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Scholenwerking/onderwijs": {
+          "label": "Scholenwerking/onderwijs",
+          "value": "Scholenwerking/onderwijs",
+          "name": "Scholenwerking_onderwijs",
+          "filter": "",
+          "is_default": "0",
+          "weight": "6",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Gemeenschapsvorming/ontmoeting": {
+          "label": "Gemeenschapsvorming/ontmoeting",
+          "value": "Gemeenschapsvorming/ontmoeting",
+          "name": "Gemeenschapsvorming_ontmoeting",
+          "filter": "",
+          "is_default": "0",
+          "weight": "7",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Cultuurparticpatie/cultuurspreiding": {
+          "label": "Cultuurparticpatie/cultuurspreiding",
+          "value": "Cultuurparticpatie/cultuurspreiding",
+          "name": "Cultuurparticpatie_cultuursprei",
+          "filter": "",
+          "is_default": "0",
+          "weight": "8",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Community information/maatschappelijke thema's": {
+          "label": "Community information/maatschappelijke thema's",
+          "value": "Community information/maatschappelijke thema's",
+          "name": "Community_information_maatschap",
+          "filter": "",
+          "is_default": "0",
+          "weight": "9",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Levenslang leren": {
+          "label": "Levenslang leren",
+          "value": "Levenslang leren",
+          "name": "Levenslang_leren",
+          "filter": "",
+          "is_default": "0",
+          "weight": "10",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        },
+        "Andere doelstelling": {
+          "label": "Andere doelstelling",
+          "value": "Andere doelstelling",
+          "name": "Andere_doelstelling",
+          "filter": "",
+          "is_default": "0",
+          "weight": "11",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "doelstelling"
+        }
+      }
+    },
+    "soorten_doelgroepen": {
+      "name": "soorten_doelgroepen",
+      "title": "Soorten doelgroepen",
+      "is_reserved": "0",
+      "is_active": "1",
+      "is_locked": "0",
+      "option_values": {
+        "Niet van toepassing/inclusieve werking": {
+          "label": "Niet van toepassing/inclusieve werking",
+          "value": "Niet van toepassing/inclusieve werking",
+          "name": "Niet_van_toepassing_inclusieve_",
+          "filter": "",
+          "is_default": "0",
+          "weight": "1",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Bewoners van verzorgingsinstellingen": {
+          "label": "Bewoners van verzorgingsinstellingen",
+          "value": "Bewoners van verzorgingsinstellingen",
+          "name": "Bewoners_van_verzorgingsinstell",
+          "filter": "",
+          "is_default": "0",
+          "weight": "2",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Bezoekers van dienstencentra en wijk- en buurthuizen": {
+          "label": "Bezoekers van dienstencentra en wijk- en buurthuizen",
+          "value": "Bezoekers van dienstencentra en wijk- en buurthuizen",
+          "name": "Bezoekers_van_dienstencentra_en",
+          "filter": "",
+          "is_default": "0",
+          "weight": "3",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Gevangenen": {
+          "label": "Gevangenen",
+          "value": "Gevangenen",
+          "name": "Gevangenen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "4",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Personen met een etnisch-cultureel diverse achtergrond": {
+          "label": "Personen met een etnisch-cultureel diverse achtergrond",
+          "value": "Personen met een etnisch-cultureel diverse achtergrond",
+          "name": "Personen_met_een_etnisch_cultur",
+          "filter": "",
+          "is_default": "0",
+          "weight": "5",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Personen in armoede": {
+          "label": "Personen in armoede",
+          "value": "Personen in armoede",
+          "name": "Personen_in_armoede",
+          "filter": "",
+          "is_default": "0",
+          "weight": "6",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Minder mobielen": {
+          "label": "Minder mobielen",
+          "value": "Minder mobielen",
+          "name": "Minder_mobielen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "7",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Personen met een leesbeperking": {
+          "label": "Personen met een leesbeperking",
+          "value": "Personen met een leesbeperking",
+          "name": "Personen_met_een_leesbeperking",
+          "filter": "",
+          "is_default": "0",
+          "weight": "8",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Asielzoekers": {
+          "label": "Asielzoekers",
+          "value": "Asielzoekers",
+          "name": "Asielzoekers",
+          "filter": "",
+          "is_default": "0",
+          "weight": "9",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Jeugd/jongeren": {
+          "label": "Jeugd/jongeren",
+          "value": "Jeugd/jongeren",
+          "name": "Jeugd_jongeren",
+          "filter": "",
+          "is_default": "0",
+          "weight": "10",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Ouderen": {
+          "label": "Ouderen",
+          "value": "Ouderen",
+          "name": "Ouderen",
+          "filter": "",
+          "is_default": "0",
+          "weight": "11",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
+        },
+        "Andere doelgroep": {
+          "label": "Andere doelgroep",
+          "value": "Andere doelgroep",
+          "name": "Andere_doelgroep",
+          "filter": "",
+          "is_default": "0",
+          "weight": "12",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "soorten_doelgroepen"
         }
       }
     }
