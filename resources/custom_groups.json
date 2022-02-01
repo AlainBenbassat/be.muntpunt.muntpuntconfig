@@ -97,7 +97,7 @@
           "filter": "action=lookup&group=1081",
           "in_selector": "0",
           "default_value": "",
-          "column_name": "organizer",
+          "column_name": "organisator",
           "weight": "3"
         },
         "muntpunt_zalen": {
