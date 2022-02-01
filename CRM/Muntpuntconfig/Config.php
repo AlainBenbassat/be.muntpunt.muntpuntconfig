@@ -7,6 +7,8 @@ class CRM_Muntpuntconfig_Config {
   private $optionGroupIdEvenementStatus;
   private $optionGroupIdMuntpuntZalen;
 
+  private $customFields = [];
+
   private function __construct() {
   }
 
@@ -42,6 +44,14 @@ class CRM_Muntpuntconfig_Config {
   public function getOptionValues_MuntpuntZalen($addEmptyItem) {
     $groupId = $this->getOptionGroupId_MuntpuntZalen();
     return $this->getOptionGroupValues($groupId, $addEmptyItem);
+  }
+
+  public function getCustomValueId($fieldName) {
+    if (empty($this->customFields[$fieldName])) {
+      $this->customFields[$fieldName] = CRM_Core_DAO::singleValueQuery("select id from civicrm_custom_field where name = %1", [1 => [$fieldName, 'String']]);
+    }
+
+    return $this->customFields[$fieldName];
   }
 
   private function getOptionGroupId($name) {
