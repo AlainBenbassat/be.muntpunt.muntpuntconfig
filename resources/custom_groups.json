@@ -71,8 +71,8 @@
           "option_group": "taal",
           "weight": "2"
         },
-        "organizer": {
-          "name": "organizer",
+        "organisator": {
+          "name": "organisator",
           "label": "Organisator",
           "data_type": "ContactReference",
           "html_type": "Autocomplete-Select",
