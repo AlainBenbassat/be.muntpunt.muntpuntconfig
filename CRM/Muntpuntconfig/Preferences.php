@@ -4,13 +4,15 @@ class CRM_Muntpuntconfig_Preferences {
   public static function set() {
     self::setDateFormat();
     self::setMoneyFormat();
+    self::setFromEmailAddress();
+    self::setDisablePoweredByCiviCRM();
   }
 
   private static function setDateFormat() {
     civicrm_api4('Setting', 'set', [
       'values' => [
-        'dateformatDatetime' => '%e %B %Y %H:%M',
-        'dateformatFull' => '%e %B %Y',
+        'dateformatDatetime' => '%E %B %Y %k:%M uur',
+        'dateformatFull' => '%E %B %Y',
         'dateformatTime' => '%H:%M',
         'dateformatFinancialBatch' => '%d/%m/%Y',
         'dateformatshortdate' => '%d/%m/%Y',
@@ -32,6 +34,22 @@ class CRM_Muntpuntconfig_Preferences {
         'defaultCurrency' => 'EUR',
       ],
     ]);
+  }
+
+  private static function setFromEmailAddress() {
+    \Civi\Api4\OptionValue::update()
+      ->addValue('label', '"Muntpunt" <info@muntpunt.be>')
+      ->addValue('name', 'Muntpunt" <info@muntpunt.be>')
+      ->addWhere('option_group_id:name', '=', 'from_email_address')
+      ->addWhere('value', '=', 1)
+      ->execute();
+  }
+
+  private static function setDisablePoweredByCiviCRM() {
+    \Civi\Api4\Setting::set()
+      ->addValue('empoweredBy', 0)
+      ->setDomainId(1)
+      ->execute();
   }
 
 }
