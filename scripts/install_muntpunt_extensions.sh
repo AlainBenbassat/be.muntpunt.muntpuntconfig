@@ -2,7 +2,7 @@
 
 EXTPATH=$(cd ../..; pwd)
 
-which cv
+which cv >/dev/null
 if [ $? -eq 0 ]
 then
   CVCOMMAND="cv"
@@ -16,7 +16,7 @@ function installExtension() {
     cd "$EXTPATH"
     git clone $2
   fi
-
+exit
   cv en $1
 }
 
