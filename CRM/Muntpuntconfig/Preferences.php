@@ -21,6 +21,7 @@ class CRM_Muntpuntconfig_Preferences {
         'weekBegins' => '1',
       ],
       'domainId' => 1,
+      'checkPermissions' => FALSE,
     ]);
   }
 
@@ -33,11 +34,12 @@ class CRM_Muntpuntconfig_Preferences {
         'moneyvalueformat' => '%!i',
         'defaultCurrency' => 'EUR',
       ],
+      'checkPermissions' => FALSE,
     ]);
   }
 
   private static function setFromEmailAddress() {
-    \Civi\Api4\OptionValue::update()
+    \Civi\Api4\OptionValue::update(FALSE)
       ->addValue('label', '"Muntpunt" <info@muntpunt.be>')
       ->addValue('name', 'Muntpunt" <info@muntpunt.be>')
       ->addWhere('option_group_id:name', '=', 'from_email_address')
@@ -46,7 +48,7 @@ class CRM_Muntpuntconfig_Preferences {
   }
 
   private static function setDisablePoweredByCiviCRM() {
-    \Civi\Api4\Setting::set()
+    \Civi\Api4\Setting::set(FALSE)
       ->addValue('empoweredBy', 0)
       ->setDomainId(1)
       ->execute();
