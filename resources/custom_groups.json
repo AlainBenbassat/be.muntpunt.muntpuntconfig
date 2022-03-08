@@ -10,6 +10,7 @@
       "style": "Inline",
       "collapse_display": "0",
       "table_name": "civicrm_value_evenement_extra_info",
+      "weight": "1",
       "fields": {
         "doelgroep": {
           "name": "doelgroep",
@@ -200,6 +201,7 @@
       "style": "Inline",
       "collapse_display": "0",
       "table_name": "civicrm_value_evenement_planning",
+      "weight": "2",
       "fields": {
         "aanpreekpersoon_": {
           "name": "aanpreekpersoon_",
@@ -591,6 +593,7 @@
       "style": "Inline",
       "collapse_display": "0",
       "table_name": "civicrm_value_evenement_bios",
+      "weight": "3",
       "fields": {
         "activiteitensoort": {
           "name": "activiteitensoort",
