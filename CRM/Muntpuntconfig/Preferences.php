@@ -2,6 +2,8 @@
 
 class CRM_Muntpuntconfig_Preferences {
   public static function set() {
+    self::setLanguage();
+    self::setCountry();
     self::setDateFormat();
     self::setMoneyFormat();
     self::setFromEmailAddress();
@@ -28,6 +30,15 @@ class CRM_Muntpuntconfig_Preferences {
     Civi::settings()->set('theme_backend', 'finsburypark');
   }
 
+  private static function setLanguage() {
+    Civi::settings()->set('lcMessages', 'nl_BE');
+    Civi::settings()->set('uiLanguages', ['nl_BE']);
+  }
+
+  private static function setCountry() {
+    Civi::settings()->set('defaultContactCountry', 1020);
+  }
+
   private static function setDateFormat() {
     civicrm_api4('Setting', 'set', [
       'values' => [
@@ -48,14 +59,18 @@ class CRM_Muntpuntconfig_Preferences {
   private static function setMoneyFormat() {
     civicrm_api4('Setting', 'set', [
       'values' => [
-        'monetaryThousandSeparator' => ' ',
+        'monetaryThousandSeparator' => '.',
         'monetaryDecimalPoint' => ',',
-        'moneyformat' => '%a %c',
+        'moneyformat' => '%c %a',
         'moneyvalueformat' => '%!i',
         'defaultCurrency' => 'EUR',
       ],
       'checkPermissions' => FALSE,
     ]);
+
+    // delete usd from available currencies
+    $sql = "delete from civicrm_option_value where option_group_id = 113 and value = 'USD'";
+    CRM_Core_DAO::executeQuery($sql);
   }
 
   private static function setFromEmailAddress() {
@@ -75,27 +90,27 @@ class CRM_Muntpuntconfig_Preferences {
   }
 
   private static function setDefaultOrgName() {
-    \Civi\Api4\Contact::update()
+    \Civi\Api4\Contact::update(FALSE)
       ->addValue('organization_name', 'Muntpunt')
       ->addValue('legal_name', 'Muntpunt')
       ->addWhere('id', '=', 1)
       ->execute();
 
-    \Civi\Api4\Domain::update()
+    \Civi\Api4\Domain::update(FALSE)
       ->addValue('name', 'Muntpunt')
       ->addWhere('id', '=', 1)
       ->execute();
   }
 
   private static function setDefaultOrgEmail() {
-    \Civi\Api4\Email::update()
+    \Civi\Api4\Email::update(FALSE)
       ->addValue('email', 'info@muntpunt.be')
       ->addWhere('id', '=', 1)
       ->execute();
   }
 
   private static function setDefaultOrgAddress() {
-    \Civi\Api4\Address::create()
+    \Civi\Api4\Address::create(FALSE)
       ->addValue('contact_id', 1)
       ->addValue('street_address', 'Munt 6')
       ->addValue('postal_code', 1000)
