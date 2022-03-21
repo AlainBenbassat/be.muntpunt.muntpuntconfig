@@ -6,6 +6,26 @@ class CRM_Muntpuntconfig_Preferences {
     self::setMoneyFormat();
     self::setFromEmailAddress();
     self::setDisablePoweredByCiviCRM();
+    self::setDefaultOrgName();
+    self::setDefaultOrgEmail();
+    self::setDefaultOrgAddress();
+    self::setGreeting();
+  }
+
+  public static function setSMTP($settings) {
+    $mailingBackend = [];
+    $mailingBackend['outBound_option'] = CRM_Mailing_Config::OUTBOUND_OPTION_SMTP;
+    $mailingBackend['sendmail_args'] = 0;
+    $mailingBackend['smtpAuth'] = 1;
+    $mailingBackend['smtpServer'] = $settings['smtpServer'];
+    $mailingBackend['smtpPort'] = $settings['smtpPort'];
+    $mailingBackend['smtpUsername'] = $settings['smtpUsername'];
+    $mailingBackend['smtpPassword'] = $settings['smtpPassword'];
+    Civi::settings()->set('mailing_backend', $mailingBackend);
+  }
+
+  public static function setBackendTheme() {
+    Civi::settings()->set('theme_backend', 'finsburypark');
   }
 
   private static function setDateFormat() {
@@ -52,6 +72,43 @@ class CRM_Muntpuntconfig_Preferences {
       ->addValue('empoweredBy', 0)
       ->setDomainId(1)
       ->execute();
+  }
+
+  private static function setDefaultOrgName() {
+    \Civi\Api4\Contact::update()
+      ->addValue('organization_name', 'Muntpunt')
+      ->addValue('legal_name', 'Muntpunt')
+      ->addWhere('id', '=', 1)
+      ->execute();
+
+    \Civi\Api4\Domain::update()
+      ->addValue('name', 'Muntpunt')
+      ->addWhere('id', '=', 1)
+      ->execute();
+  }
+
+  private static function setDefaultOrgEmail() {
+    \Civi\Api4\Email::update()
+      ->addValue('email', 'info@muntpunt.be')
+      ->addWhere('id', '=', 1)
+      ->execute();
+  }
+
+  private static function setDefaultOrgAddress() {
+    \Civi\Api4\Address::create()
+      ->addValue('contact_id', 1)
+      ->addValue('street_address', 'Munt 6')
+      ->addValue('postal_code', 1000)
+      ->addValue('city', 'Brussel')
+      ->addValue('country_id.name', 'Belgium')
+      ->addValue('location_type_id:name', 'Work')
+      ->addValue('is_primary', TRUE)
+      ->execute();
+  }
+
+  private static function setGreeting() {
+    $sql = "update civicrm_option_value set name = replace(name, 'Dear ', 'Dag '), label = replace(label, 'Dear ', 'Dag ') where option_group_id in (42,43)";
+    CRM_Core_DAO::executeQuery($sql);
   }
 
 }
