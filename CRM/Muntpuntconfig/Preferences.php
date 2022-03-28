@@ -92,7 +92,7 @@ class CRM_Muntpuntconfig_Preferences {
       ->addValue('label', 'Redactie')
       ->addValue('display_name', 'Redactie')
       ->addValue('description', 'Redactieadres')
-      ->addWhere('value', '=', 4)
+      ->addWhere('id', '=', 4)
       ->execute();
   }
 
