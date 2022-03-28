@@ -7,6 +7,7 @@ class CRM_Muntpuntconfig_Preferences {
     self::setDateFormat();
     self::setMoneyFormat();
     self::setFromEmailAddress();
+    self::setRedactionAddress();
     self::setDisablePoweredByCiviCRM();
     self::setDefaultOrgName();
     self::setDefaultOrgEmail();
@@ -83,6 +84,15 @@ class CRM_Muntpuntconfig_Preferences {
       ->addValue('name', 'Muntpunt" <info@muntpunt.be>')
       ->addWhere('option_group_id:name', '=', 'from_email_address')
       ->addWhere('value', '=', 1)
+      ->execute();
+  }
+
+  private static function setRedactionAddress() {
+    \Civi\Api4\LocationType::update(FALSE)
+      ->addValue('label', 'Redactie')
+      ->addValue('display_name', 'Redactie')
+      ->addValue('description', 'Redactieadres')
+      ->addWhere('value', '=', 4)
       ->execute();
   }
 
