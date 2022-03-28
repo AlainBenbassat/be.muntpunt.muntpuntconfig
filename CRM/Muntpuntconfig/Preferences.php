@@ -12,6 +12,7 @@ class CRM_Muntpuntconfig_Preferences {
     self::setDefaultOrgEmail();
     self::setDefaultOrgAddress();
     self::setGreeting();
+    self::enableComponents();
   }
 
   public static function setSMTP($settings) {
@@ -37,17 +38,19 @@ class CRM_Muntpuntconfig_Preferences {
 
   private static function setCountry() {
     Civi::settings()->set('defaultContactCountry', 1020);
+    Civi::settings()->set('defaultContactCountry', 1020);
+    Civi::settings()->set('countryLimit', [1020]);
   }
 
   private static function setDateFormat() {
     civicrm_api4('Setting', 'set', [
       'values' => [
-        'dateformatDatetime' => '%E %B %Y %k:%M uur',
+        'dateformatDatetime' => '%E %B %Y %k:%M',
         'dateformatFull' => '%E %B %Y',
         'dateformatTime' => '%H:%M',
-        'dateformatFinancialBatch' => '%d/%m/%Y',
-        'dateformatshortdate' => '%d/%m/%Y',
-        'dateInputFormat' => 'dd/mm/yy',
+        'dateformatFinancialBatch' => '%d.%m.%Y',
+        'dateformatshortdate' => '%d.%m.%Y',
+        'dateInputFormat' => 'dd.mm.yy',
         'timeInputFormat' => '2',
         'weekBegins' => '1',
       ],
@@ -69,7 +72,8 @@ class CRM_Muntpuntconfig_Preferences {
     ]);
 
     // delete usd from available currencies
-    $sql = "delete from civicrm_option_value where option_group_id = 113 and value = 'USD'";
+    $optionGroupId = CRM_Core_DAO::singleValueQuery("select id from civicrm_option_group where name = 'currencies_enabled'");
+    $sql = "delete from civicrm_option_value where option_group_id = $optionGroupId and value = 'USD'";
     CRM_Core_DAO::executeQuery($sql);
   }
 
@@ -124,6 +128,23 @@ class CRM_Muntpuntconfig_Preferences {
   private static function setGreeting() {
     $sql = "update civicrm_option_value set name = replace(name, 'Dear ', 'Dag '), label = replace(label, 'Dear ', 'Dag ') where option_group_id in (42,43)";
     CRM_Core_DAO::executeQuery($sql);
+  }
+
+  private static function enableComponents() {
+    $enabledComponents = CRM_Core_Config::singleton()->enableComponents;
+    if (!in_array('CiviCampaign', $enabledComponents)) {
+      $enabledComponents[] = 'CiviCampaign';
+      Civi::settings()->set('enable_components', $enabledComponents);
+
+      self::clearCache();
+    }
+  }
+
+  private static function clearCache() {
+    CRM_Core_Config::clearDBCache();
+    Civi::cache('session')->clear();
+    CRM_Utils_System::flushCache();
+    CRM_Core_Resources::singleton()->resetCacheCode();
   }
 
 }
