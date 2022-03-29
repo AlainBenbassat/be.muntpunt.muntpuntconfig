@@ -5,11 +5,11 @@ class CRM_Muntpuntconfig_ConfigItems {
   public static function load() {
     $resourcePath = Civi::resources()->getPath('be.muntpunt.muntpuntconfig') . '/resources';
 
-    civicrm_api3('Civiconfig', 'load_json', [
+    $result = civicrm_api3('Civiconfig', 'load_json', [
       'path' => $resourcePath
     ]);
 
-    // note really a config item, but we set it here as well
+    // not really a config item, but we set it here as well
     self::addContactIdentity_oldCiviCRMId();
   }
 
