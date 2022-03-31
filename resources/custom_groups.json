@@ -4,7 +4,7 @@
     "diensten_en_producten": {
       "name": "diensten_en_producten",
       "title": "Diensten en Producten",
-      "extends": "Event",
+      "extends": "Organization",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -12,6 +12,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_diensten_en_producten",
       "weight": "1",
+      "help_post": "4",
       "fields": {
         "perssoort": {
           "name": "perssoort",
@@ -41,6 +42,7 @@
           "default_value": "",
           "column_name": "perssoort",
           "option_group": "perssoort",
+          "help_post": "14",
           "weight": "1"
         },
         "datum_van_verschijning": {
@@ -70,6 +72,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "datum_van_verschijning",
+          "help_post": "22",
           "weight": "2"
         },
         "tmp_deadline": {
@@ -99,6 +102,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "tmp_deadline",
+          "help_post": "23",
           "weight": "3"
         },
         "periodicitei": {
@@ -129,6 +133,7 @@
           "default_value": "",
           "column_name": "periodicitei",
           "option_group": "periodicitei",
+          "help_post": "29",
           "weight": "4"
         },
         "categorie": {
@@ -159,6 +164,7 @@
           "default_value": "",
           "column_name": "categorie",
           "option_group": "categorie",
+          "help_post": "33",
           "weight": "5"
         }
       }
@@ -166,7 +172,7 @@
     "media_info": {
       "name": "media_info",
       "title": "Media info",
-      "extends": "Event",
+      "extends": "Individual",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -174,6 +180,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_media_info",
       "weight": "2",
+      "help_post": "12",
       "fields": {
         "team": {
           "name": "team",
@@ -203,6 +210,7 @@
           "default_value": "",
           "column_name": "team",
           "option_group": "team",
+          "help_post": "31",
           "weight": "1"
         },
         "function": {
@@ -233,6 +241,7 @@
           "default_value": "",
           "column_name": "function",
           "option_group": "function",
+          "help_post": "32",
           "weight": "2"
         }
       }
@@ -240,7 +249,7 @@
     "muntpunt_medewerker_type": {
       "name": "muntpunt_medewerker_type",
       "title": "Muntpunt Medewerker type",
-      "extends": "Event",
+      "extends": "Individual",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -248,6 +257,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_muntpunt_medewerker_type",
       "weight": "3",
+      "help_post": "17",
       "fields": {
         "medewerker_statuut": {
           "name": "medewerker_statuut",
@@ -277,6 +287,7 @@
           "default_value": "",
           "column_name": "medewerker_statuut",
           "option_group": "medewerker_statuut",
+          "help_post": "39",
           "weight": "1"
         }
       }
@@ -284,7 +295,7 @@
     "ouder_voogd_contact": {
       "name": "ouder_voogd_contact",
       "title": "Ouder/Voogd Contact",
-      "extends": "Event",
+      "extends": "Individual",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -292,6 +303,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_ouder_voogd_contact",
       "weight": "4",
+      "help_post": "19",
       "fields": {
         "voornaam_ouder": {
           "name": "voornaam_ouder",
@@ -320,6 +332,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "voornaam_ouder",
+          "help_post": "395",
           "weight": "1"
         },
         "achternaam": {
@@ -349,6 +362,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "achternaam",
+          "help_post": "397",
           "weight": "2"
         },
         "e_mailadres": {
@@ -378,6 +392,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "e_mailadres",
+          "help_post": "399",
           "weight": "3"
         },
         "gsm": {
@@ -407,6 +422,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "gsm",
+          "help_post": "401",
           "weight": "4"
         },
         "postcode": {
@@ -436,6 +452,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "postcode",
+          "help_post": "403",
           "weight": "5"
         },
         "aanspreking": {
@@ -466,6 +483,7 @@
           "default_value": "1",
           "column_name": "aanspreking",
           "option_group": "aanspreking",
+          "help_post": "471",
           "weight": "6"
         }
       }
@@ -473,7 +491,7 @@
     "btw_info": {
       "name": "btw_info",
       "title": "BTW Info",
-      "extends": "Event",
+      "extends": "Organization",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -481,6 +499,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_btw_info",
       "weight": "5",
+      "help_post": "21",
       "fields": {
         "organisatie_info": {
           "name": "organisatie_info",
@@ -509,6 +528,7 @@
           "in_selector": "0",
           "default_value": "BE",
           "column_name": "organisatie_info",
+          "help_post": "43",
           "weight": "1"
         }
       }
@@ -516,7 +536,7 @@
     "overheid_organisatie_type": {
       "name": "overheid_organisatie_type",
       "title": "Overheid Organisatie Type",
-      "extends": "Event",
+      "extends": "Organization",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -524,6 +544,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_overheid_organisatie_type",
       "weight": "6",
+      "help_post": "25",
       "fields": {
         "overheid_soort": {
           "name": "overheid_soort",
@@ -553,6 +574,7 @@
           "default_value": "",
           "column_name": "overheid_soort",
           "option_group": "overheid_soort",
+          "help_post": "47",
           "weight": "1"
         },
         "instantie": {
@@ -583,6 +605,7 @@
           "default_value": "",
           "column_name": "instantie",
           "option_group": "instantie",
+          "help_post": "49",
           "weight": "2"
         }
       }
@@ -590,7 +613,7 @@
     "leverancier_organisatie_type": {
       "name": "leverancier_organisatie_type",
       "title": "Leverancier Organisatie Type",
-      "extends": "Event",
+      "extends": "Organization",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -598,6 +621,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_leverancier_organisatie_type",
       "weight": "7",
+      "help_post": "27",
       "fields": {
         "soort_dienstverlening": {
           "name": "soort_dienstverlening",
@@ -627,6 +651,7 @@
           "default_value": "",
           "column_name": "soort_dienstverlening",
           "option_group": "soort_dienstverlening",
+          "help_post": "51",
           "weight": "1"
         }
       }
@@ -634,7 +659,7 @@
     "partner_organisatie_type": {
       "name": "partner_organisatie_type",
       "title": "Partner Organisatie Type",
-      "extends": "Event",
+      "extends": "Organization",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -642,6 +667,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_partner_organisatie_type",
       "weight": "8",
+      "help_post": "29",
       "fields": {
         "soort": {
           "name": "soort",
@@ -671,6 +697,7 @@
           "default_value": "",
           "column_name": "soort",
           "option_group": "soort",
+          "help_post": "55",
           "weight": "1"
         }
       }
@@ -678,7 +705,7 @@
     "overheid_medewerker": {
       "name": "overheid_medewerker",
       "title": "Overheid Medewerker",
-      "extends": "Event",
+      "extends": "Individual",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -686,6 +713,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_overheid_medewerker",
       "weight": "9",
+      "help_post": "31",
       "fields": {
         "medewerker_profiel": {
           "name": "medewerker_profiel",
@@ -715,6 +743,7 @@
           "default_value": "",
           "column_name": "medewerker_profiel",
           "option_group": "medewerker_profiel",
+          "help_post": "57",
           "weight": "1"
         }
       }
@@ -722,7 +751,7 @@
     "leverancier_medewerker_profiel": {
       "name": "leverancier_medewerker_profiel",
       "title": "Leverancier Medewerker Profiel",
-      "extends": "Event",
+      "extends": "Individual",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -730,6 +759,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_leverancier_medewerker_profiel",
       "weight": "10",
+      "help_post": "37",
       "fields": {
         "leverancier_verantwoordelijk": {
           "name": "leverancier_verantwoordelijk",
@@ -759,6 +789,7 @@
           "default_value": "",
           "column_name": "leverancier_verantwoordelijk",
           "option_group": "leverancier_verantwoordelijk",
+          "help_post": "67",
           "weight": "1"
         }
       }
@@ -766,7 +797,7 @@
     "departement": {
       "name": "departement",
       "title": "Departement",
-      "extends": "Event",
+      "extends": "Organization",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -774,6 +805,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_departement",
       "weight": "11",
+      "help_post": "45",
       "fields": {
         "departement": {
           "name": "departement",
@@ -802,6 +834,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "departement",
+          "help_post": "73",
           "weight": "1"
         }
       }
@@ -809,7 +842,7 @@
     "abonnementen": {
       "name": "abonnementen",
       "title": "Abonnementen",
-      "extends": "Event",
+      "extends": "Contact",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -817,6 +850,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_abonnementen",
       "weight": "12",
+      "help_post": "47",
       "fields": {
         "aantal_broodje_brussel_folders": {
           "name": "aantal_broodje_brussel_folders",
@@ -845,6 +879,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "aantal_broodje_brussel_folders",
+          "help_post": "77",
           "weight": "1"
         },
         "barcode_brunopas_nr": {
@@ -874,6 +909,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "barcode_brunopas_nr",
+          "help_post": "239",
           "weight": "2"
         },
         "uitpasnummer": {
@@ -903,6 +939,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "uitpasnummer",
+          "help_post": "363",
           "weight": "3"
         }
       }
@@ -910,7 +947,7 @@
     "muntpunt_vrijwilliger_type": {
       "name": "muntpunt_vrijwilliger_type",
       "title": "Muntpunt Vrijwilliger Type",
-      "extends": "Event",
+      "extends": "Contact",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -918,6 +955,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_muntpunt_vrijwilliger_type",
       "weight": "13",
+      "help_post": "71",
       "fields": {
         "type_vrijwilliger": {
           "name": "type_vrijwilliger",
@@ -947,6 +985,7 @@
           "default_value": "",
           "column_name": "type_vrijwilliger",
           "option_group": "medewerker_statuut",
+          "help_post": "219",
           "weight": "1"
         }
       }
@@ -962,6 +1001,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_extra_evenement_info",
       "weight": "14",
+      "help_post": "109",
       "fields": {
         "doelgroep": {
           "name": "doelgroep",
@@ -991,6 +1031,7 @@
           "default_value": "Iedereen,Gesloten evenement",
           "column_name": "doelgroep",
           "option_group": "doelgroep",
+          "help_post": "289",
           "weight": "1"
         },
         "taal": {
@@ -1021,6 +1062,7 @@
           "default_value": "Nederlands",
           "column_name": "taal",
           "option_group": "taal",
+          "help_post": "301",
           "weight": "2"
         },
         "organisator": {
@@ -1050,6 +1092,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "organisator",
+          "help_post": "311",
           "weight": "3"
         },
         "muntpunt_zalen": {
@@ -1080,6 +1123,7 @@
           "default_value": "",
           "column_name": "muntpunt_zalen",
           "option_group": "muntpunt_zalen",
+          "help_post": "555",
           "weight": "4"
         },
         "activiteit_status": {
@@ -1110,6 +1154,7 @@
           "default_value": "",
           "column_name": "activiteit_status",
           "option_group": "activiteit_status",
+          "help_post": "415",
           "weight": "5"
         },
         "evenement_link": {
@@ -1139,6 +1184,7 @@
           "in_selector": "0",
           "default_value": "https://www.muntpunt.be",
           "column_name": "evenement_link",
+          "help_post": "473",
           "weight": "6"
         }
       }
@@ -1154,6 +1200,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_evenement_planning_memo_overleg_en_statistiek",
       "weight": "15",
+      "help_post": "115",
       "fields": {
         "aanpreekpersoon": {
           "name": "aanpreekpersoon",
@@ -1182,6 +1229,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "aanpreekpersoon",
+          "help_post": "313",
           "weight": "1"
         },
         "aanspreekpersoon_standby": {
@@ -1211,6 +1259,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "aanspreekpersoon_standby",
+          "help_post": "327",
           "weight": "2"
         },
         "dag_planning": {
@@ -1240,6 +1289,7 @@
           "in_selector": "0",
           "default_value": "Bijvoorbeeld; welke mails gaan TIOK medewerkers verwachten? Dagplanning, ezn...",
           "column_name": "dag_planning",
+          "help_post": "309",
           "weight": "3"
         },
         "gevoerd_promotie": {
@@ -1270,6 +1320,7 @@
           "default_value": "",
           "column_name": "gevoerd_promotie",
           "option_group": "gevoerd_promotie:",
+          "help_post": "323",
           "weight": "4"
         },
         "kernfunctie": {
@@ -1300,6 +1351,7 @@
           "default_value": "",
           "column_name": "kernfunctie",
           "option_group": "kernfunctie",
+          "help_post": "303",
           "weight": "5"
         },
         "partner_1": {
@@ -1329,6 +1381,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "partner_1",
+          "help_post": "331",
           "weight": "6"
         },
         "partner_2": {
@@ -1358,6 +1411,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "partner_2",
+          "help_post": "333",
           "weight": "7"
         },
         "partner_3": {
@@ -1387,6 +1441,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "partner_3",
+          "help_post": "339",
           "weight": "8"
         },
         "partner_4": {
@@ -1416,6 +1471,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "partner_4",
+          "help_post": "337",
           "weight": "9"
         },
         "sabam_op_de_hoogte_brengen": {
@@ -1445,6 +1501,7 @@
           "in_selector": "0",
           "default_value": "0",
           "column_name": "sabam_op_de_hoogte_brengen",
+          "help_post": "307",
           "weight": "10"
         },
         "verwachte_deelnemers": {
@@ -1474,6 +1531,7 @@
           "in_selector": "0",
           "default_value": "0",
           "column_name": "verwachte_deelnemers",
+          "help_post": "325",
           "weight": "11"
         },
         "geschatte_deelnemers": {
@@ -1503,6 +1561,7 @@
           "in_selector": "0",
           "default_value": "0",
           "column_name": "geschatte_deelnemers",
+          "help_post": "315",
           "weight": "12"
         }
       }
@@ -1518,6 +1577,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_bios",
       "weight": "16",
+      "help_post": "117",
       "fields": {
         "activiteitensoort": {
           "name": "activiteitensoort",
@@ -1547,6 +1607,7 @@
           "default_value": "",
           "column_name": "activiteitensoort",
           "option_group": "activiteitensoort",
+          "help_post": "341",
           "weight": "1"
         },
         "doelstelling": {
@@ -1577,6 +1638,7 @@
           "default_value": "",
           "column_name": "doelstelling",
           "option_group": "doelstelling",
+          "help_post": "343",
           "weight": "2"
         },
         "soorten_doelgroepen": {
@@ -1607,6 +1669,7 @@
           "default_value": "",
           "column_name": "soorten_doelgroepen",
           "option_group": "soorten_doelgroepen",
+          "help_post": "345",
           "weight": "3"
         }
       }
@@ -1614,7 +1677,7 @@
     "bijkomende_informatie": {
       "name": "bijkomende_informatie",
       "title": "Bijkomende informatie",
-      "extends": "Event",
+      "extends": "Participant",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -1622,6 +1685,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_bijkomende_informatie",
       "weight": "17",
+      "help_post": "175",
       "fields": {
         "via_welke_weg_ken_je_deze_activiteit": {
           "name": "via_welke_weg_ken_je_deze_activiteit",
@@ -1651,6 +1715,7 @@
           "default_value": "",
           "column_name": "via_welke_weg_ken_je_deze_activi",
           "option_group": "via_welke_weg_ken_je_deze_activiteit",
+          "help_post": "557",
           "weight": "1"
         },
         "wenst_op_de_hoogte_gehouden_te_worden_van_gelijkaardige_activite": {
@@ -1680,6 +1745,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "wenst_op_de_hoogte_gehouden_te_w",
+          "help_post": "559",
           "weight": "2"
         }
       }
@@ -1687,7 +1753,7 @@
     "netflix": {
       "name": "netflix",
       "title": "Netflix",
-      "extends": "Event",
+      "extends": "Participant",
       "is_reserved": "0",
       "is_active": "1",
       "is_public": "0",
@@ -1695,6 +1761,7 @@
       "collapse_display": "0",
       "table_name": "civicrm_value_netflix",
       "weight": "18",
+      "help_post": "177",
       "fields": {
         "heb_je_netflix": {
           "name": "heb_je_netflix",
@@ -1723,6 +1790,7 @@
           "in_selector": "0",
           "default_value": "",
           "column_name": "heb_je_netflix",
+          "help_post": "567",
           "weight": "1"
         }
       }
