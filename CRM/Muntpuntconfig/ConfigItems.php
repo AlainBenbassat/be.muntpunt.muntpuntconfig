@@ -4,7 +4,7 @@ class CRM_Muntpuntconfig_ConfigItems {
 
   public static function load() {
     // create the contact sub types first
-    self::createContactSubTypes();
+   self::createContactSubTypes();
 
     $resourcePath = Civi::resources()->getPath('be.muntpunt.muntpuntconfig') . '/resources';
 
@@ -21,18 +21,23 @@ class CRM_Muntpuntconfig_ConfigItems {
   }
 
   private static function createContactSubTypes() {
-    $params = [
-      'name' => 'perspartner',
-      'label' => 'Perspartner',
-      'parent_id' => 3,
-    ];
-    civicrm_api3('ContactType', 'create', $params);
+    try {
+      $params = [
+        'name' => 'perspartner',
+        'label' => 'Perspartner',
+        'parent_id' => 3,
+      ];
+      civicrm_api3('ContactType', 'create', $params);
 
-    $params = [
-      'name' => 'persmedewerker',
-      'label' => 'Persmedewerker',
-      'parent_id' => 1,
-    ];
-    civicrm_api3('ContactType', 'create', $params);
+      $params = [
+        'name' => 'persmedewerker',
+        'label' => 'Persmedewerker',
+        'parent_id' => 1,
+      ];
+      civicrm_api3('ContactType', 'create', $params);
+    }
+    catch (Exception $e) {
+      // ignore
+    }
   }
 }
