@@ -22,7 +22,7 @@ class CRM_Muntpuntconfig_Config {
 
   public function getOptionGroupId_EvenementStatus() {
     if (empty($this->optionGroupIdEvenementStatus)) {
-      $this->optionGroupIdEvenementStatus = $this->getOptionGroupId('evenement_status');
+      $this->optionGroupIdEvenementStatus = $this->getOptionGroupId('activiteit_status');
     }
 
     return $this->optionGroupIdEvenementStatus;
