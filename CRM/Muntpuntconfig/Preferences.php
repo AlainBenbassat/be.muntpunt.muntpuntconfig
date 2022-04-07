@@ -2,8 +2,6 @@
 
 class CRM_Muntpuntconfig_Preferences {
   public static function set() {
-    self::setFromEmailAddress();
-    return;
     self::setLanguage();
     self::setCountry();
     self::setDateFormat();
