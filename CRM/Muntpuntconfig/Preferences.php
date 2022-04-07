@@ -2,6 +2,8 @@
 
 class CRM_Muntpuntconfig_Preferences {
   public static function set() {
+    self::setFromEmailAddress();
+    return;
     self::setLanguage();
     self::setCountry();
     self::setDateFormat();
@@ -85,6 +87,24 @@ class CRM_Muntpuntconfig_Preferences {
       ->addWhere('option_group_id:name', '=', 'from_email_address')
       ->addWhere('value', '=', 1)
       ->execute();
+
+    $fromAddresses = [
+      16 => '"Broodje Brussel" <broodjebrussel@muntpunt.be>',
+      17 => '"Muntpunt" <zakelijk@muntpunt.be>',
+      18 => '"UiTinBrussel" <info@uitinbrussel.be>',
+      30 => '"Paspartoe" <info@paspartoebrussel.be>',
+      33 => '"Muntpunt Jobs" <jobs@muntpunt.be>',
+    ];
+
+    foreach ($fromAddresses as $fromAddressValue => $fromAddressLabel) {
+      \Civi\Api4\OptionValue::create(FALSE)
+        ->addValue('value', $fromAddressValue)
+        ->addValue('label', $fromAddressLabel)
+        ->addValue('name', $fromAddressLabel)
+        ->addValue('is_default', 0)
+        ->addValue('option_group_id:name', 'from_email_address')
+        ->execute();
+    }
   }
 
   private static function setRedactionAddress() {
