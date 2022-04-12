@@ -3195,6 +3195,27 @@
           "option_group": "via_welke_weg_ken_je_deze_activiteit"
         }
       }
+    },
+    "privacy": {
+      "name": "privacy",
+      "title": "Privacy",
+      "is_reserved": "0",
+      "is_active": "1",
+      "is_locked": "0",
+      "option_values": {
+        "Ik ga akkoord met de &lt;a href="https://www.muntpunt.be/privacy" target="_blank"&gt;privacyverklaring&lt;/a&gt;. Wij houden je gegevens maximum 2 jaar bij.": {
+          "label": "Ik ga akkoord met de &lt;a href="https://www.muntpunt.be/privacy" target="_blank"&gt;privacyverklaring&lt;/a&gt;. Wij houden je gegevens maximum 2 jaar bij.",
+          "value": "1",
+          "name": "Ik_ga_akkoord_met_de_lt_a_href_",
+          "filter": "",
+          "is_default": "0",
+          "weight": "1",
+          "is_optgroup": "0",
+          "is_reserved": "0",
+          "is_active": "1",
+          "option_group": "privacy"
+        }
+      }
     }
   }
 }
