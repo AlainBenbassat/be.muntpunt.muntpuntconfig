@@ -148,7 +148,7 @@ class CRM_Muntpuntconfig_Preferences {
       ->addValue('postal_code', 1000)
       ->addValue('city', 'Brussel')
       ->addValue('country_id.name', 'Belgium')
-      ->addValue('location_type_id:name', 'Work')
+      ->addValue('location_type_id:name', 'Primary')
       ->addValue('is_primary', TRUE)
       ->execute();
   }
