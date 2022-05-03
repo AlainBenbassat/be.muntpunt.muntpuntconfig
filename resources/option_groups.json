@@ -3204,7 +3204,7 @@
       "is_locked": "0",
       "option_values": {
         "akkoord_privacy": {
-          "label": "Ik ga akkoord met de &lt;a href=\"https://www.muntpunt.be/privacy\" target=\"_blank\"&gt;privacyverklaring&lt;/a&gt;. Wij houden je gegevens maximum 2 jaar bij.",
+          "label": "Ik ga akkoord met de <a target=\"_new\" href=\"https://www.muntpunt.be/privacy\">privacyverklaring</a>.",
           "value": "1",
           "name": "akkoord_privacy",
           "filter": "",
