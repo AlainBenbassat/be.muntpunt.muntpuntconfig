@@ -154,7 +154,7 @@ class CRM_Muntpuntconfig_Preferences {
   }
 
   private static function setGreeting() {
-    $sql = "update civicrm_option_value set name = replace(name, 'Dear ', 'Dag '), label = replace(label, 'Dear ', 'Dag ') where option_group_id in (42,43)";
+    $sql = "update civicrm_option_value set name = replace(name, 'Dear ', 'Dag '), label = replace(label, 'Dear ', 'Dag ') where option_group_id in (40,41)";
     CRM_Core_DAO::executeQuery($sql);
   }
 
